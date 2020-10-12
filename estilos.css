@@ -1,0 +1,146 @@
+* {
+font-family: 'Coming Soon', cursive;
+	padding:0;
+	margin:0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Coming Soon', cursiva;
+	background:url(bg.png), #000;
+	background-size: cover;
+	background-attachment:fixed;
+}
+
+.contenedor {
+	font-family: 'Coming Soon', cursive;
+	width:90%;
+	max-width:1450px;
+	margin:auto;
+}
+
+#particles-js {
+	width:100%;
+	height:100%;
+	position:fixed;
+	background:rgba(0,0,0,.8);
+}
+
+header {
+	font-family: 'Coming Soon', cursive;
+  background: rgba(0,0,0,0.9);
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}
+
+header .menu {
+	font-family: 'Coming Soon', cursive;
+	background:rgba(79, 214, 12, .7);
+	overflow: hidden;
+}
+
+header .logo {
+	font-family: 'Coming Soon', cursive;
+	color:rgba(0,0,0,.8);
+	float:left;
+	font-size:30px;
+	line-height:80px;
+}
+
+header nav {
+	font-family: 'Coming Soon', cursive;
+	float:right;
+}
+
+header nav ul {
+	font-family: 'Coming Soon', cursive;
+	list-style: none;
+	overflow: hidden;
+}
+
+header nav ul li {
+	font-family: 'Coming Soon', cursive;
+	float: left;
+}
+
+header nav ul li a {
+	font-family: 'Coming Soon', cursive;
+	color:rgba(0,0,0,.8);
+	text-decoration: none;
+	display: block;
+	font-size:18px;
+	padding:0 20px;
+	line-height:80px;
+}
+
+header nav ul li:hover {
+	font-family: 'Coming Soon', cursive;
+	background:rgba(0,0,0,.8);
+}
+
+header nav ul li a:hover {
+	font-family: 'Coming Soon', cursive;
+	color:#fff;
+
+}
+.image {
+	position:relative;
+	text-align: center;
+	padding:1px 0;
+	font-weight: 400;
+}
+
+.texto {
+	font-family: 'Coming Soon', cursive;
+	color:#fff;
+	position:relative;
+	padding:90px 0;
+	text-align: center;
+	font-weight: 400;
+}
+
+.texto h2, .texto p {
+	font-family: 'Coming Soon', cursive;
+	background: rgba(0,0,0,.8);
+	display:inline-block;
+	padding:10px 20px;
+}
+
+.texto h2 {
+	font-family: 'Coming Soon', cursive;
+	font-size:40px;
+	letter-spacing: 2.5px;
+	font-weight: normal;
+}
+
+.texto p {
+	font-family: 'Coming Soon', cursive;
+	font-size:20px;
+	letter-spacing: 2.5px;
+}
+
+.principal {
+	position:relative;
+	color:#000;
+}
+
+.principal article {
+	font-family: 'Coming Soon', cursive;
+	padding:20px;
+	background:#50B31F;
+	margin-bottom: 20px;
+}
+
+.principal article p {
+	font-family: 'Coming Soon', cursive;
+	margin-bottom: 20px;
+	line-height:24px;
+	font-family: 'Coming Soon', cursive;
+}
+
+.principal article .fecha {
+	color:#000000;
+}
